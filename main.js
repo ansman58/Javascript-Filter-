@@ -36,7 +36,7 @@ const hh = (dd) => {
       return `
       <div class="container">
         <h1> ${el.name}</h1>
-        <p>${el.house}</p>
+        <p>House: ${el.house}</p>
         <div class="image-container">
             <img src=${el.image} alt = ""/>
         </div>
