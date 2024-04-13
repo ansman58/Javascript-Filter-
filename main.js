@@ -20,7 +20,7 @@ input.addEventListener("keyup", (e) => {
 const fetchData = async () => {
   try {
     const charactersData = await fetch(
-      "http://hp-api.herokuapp.com/api/characters"
+      "https://hp-api.onrender.com/api/characters"
     );
     charactersNames = await charactersData.json();
     // const slice = charactersNames.slice(0, 10);
